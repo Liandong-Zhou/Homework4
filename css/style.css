@@ -50,13 +50,6 @@ header {
 .card {
   width: auto;
 }
-/* .pricing::after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-} */
 
 @media screen and (min-width: 700px) {
   header {
