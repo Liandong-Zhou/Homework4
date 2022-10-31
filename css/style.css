@@ -5,7 +5,6 @@ html {
 header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -31,8 +30,8 @@ header {
 }
 
 .nav_link {
-  display: flex;
-  flex-direction: column;
+  display: flex;  /*not necessary*/
+  flex-direction: column;  /*not necessary*/
 }
 
 .pricing {
@@ -40,15 +39,15 @@ header {
   flex-flow: column;
 }
 
+.card {
+  width: auto;
+}
+
 .gallery {
   display: flex;
   width: 100%;
   height: auto;
   flex-flow: column;
-}
-
-.card {
-  width: auto;
 }
 
 @media screen and (min-width: 700px) {
